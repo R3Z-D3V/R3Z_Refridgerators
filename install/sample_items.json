@@ -1,0 +1,65 @@
+[
+  {
+    "name": "deicing_kit",
+    "label": "De-icing Kit",
+    "type": "item",
+    "weight": 200,
+    "rare": false,
+    "image": "deicing_kit.png",
+    "description": "Used to remove ice buildup from fridges."
+  },
+  {
+    "name": "water_filter",
+    "label": "Water Filter",
+    "type": "item",
+    "weight": 150,
+    "rare": false,
+    "image": "water_filter.png",
+    "description": "Replacement water filter for fridges."
+  },
+  {
+    "name": "air_filter",
+    "label": "Air Filter",
+    "type": "item",
+    "weight": 150,
+    "rare": false,
+    "image": "air_filter.png",
+    "description": "Replacement air filter for fridges."
+  },
+  {
+    "name": "refrigerant_can",
+    "label": "Refrigerant Can",
+    "type": "item",
+    "weight": 400,
+    "rare": false,
+    "image": "refrigerant_can.png",
+    "description": "Used to top up refrigerant levels in fridges."
+  },
+  {
+    "name": "condenser_patch",
+    "label": "Condenser Patch",
+    "type": "item",
+    "weight": 300,
+    "rare": false,
+    "image": "condenser_patch.png",
+    "description": "Temporary patch for fridge condensers."
+  },
+  {
+    "name": "water_connector",
+    "label": "Water Line Connector",
+    "type": "item",
+    "weight": 250,
+    "rare": false,
+    "image": "water_connector.png",
+    "description": "Used to hook a fridge to a water supply."
+  },
+  {
+    "name": "electrical_kit",
+    "label": "Electrical Repair Kit",
+    "type": "item",
+    "weight": 350,
+    "rare": false,
+    "image": "electrical_kit.png",
+    "description": "Used to perform basic electrical repairs on fridges."
+  }
+]

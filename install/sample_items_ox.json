@@ -1,0 +1,79 @@
+[
+  {
+    "name": "deicing_kit",
+    "label": "De-icing Kit",
+    "type": "item",
+    "weight": 100,
+    "image": "deicing_kit.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Used to remove ice buildup from fridges."
+  },
+  {
+    "name": "water_filter",
+    "label": "Water Filter",
+    "type": "item",
+    "weight": 150,
+    "image": "water_filter.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Replacement water filter for fridge water lines."
+  },
+  {
+    "name": "air_filter",
+    "label": "Air Filter",
+    "type": "item",
+    "weight": 120,
+    "image": "air_filter.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Replacement air filter for fridge airflow."
+  },
+  {
+    "name": "refrigerant_can",
+    "label": "Refrigerant Can",
+    "type": "item",
+    "weight": 400,
+    "image": "refrigerant_can.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Used to top up refrigerant in the cooling system."
+  },
+  {
+    "name": "condenser_patch",
+    "label": "Condenser Patch Kit",
+    "type": "item",
+    "weight": 250,
+    "image": "condenser_patch.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Repair kit for condenser components."
+  },
+  {
+    "name": "water_connector",
+    "label": "Water Line Connector",
+    "type": "item",
+    "weight": 80,
+    "image": "water_connector.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Used to hook up or repair fridge water lines."
+  },
+  {
+    "name": "electrical_kit",
+    "label": "Electrical Repair Kit",
+    "type": "item",
+    "weight": 300,
+    "image": "electrical_kit.png",
+    "unique": false,
+    "useable": true,
+    "shouldClose": true,
+    "description": "Basic electrical repair kit for fridge wiring and components."
+  }
+]
