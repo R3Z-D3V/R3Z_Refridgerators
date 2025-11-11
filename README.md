@@ -27,3 +27,33 @@
 #   ox_target
 #   oxmysql
 # Optional ox_inv or qb-inv
+
+# ------------------------------------------------------------------
+
+# Commands & Keybinds
+
+# Here are some of the commands built into this script:
+
+# /openfridge — opens the nearest fridge for the player.
+
+# /createfridge [label] — (admin) create a new fridge location.
+
+# /deletefridge [id] — (admin) remove an existing fridge.
+
+# Target the fridge to open
+
+# ---------------------------------------------------------
+
+# Customization
+
+# You may customize this script in the following ways:
+
+# Add new fridge models or textures for variety.
+
+# Integrate with job/business systems (e.g., grocery stores, restaurants).
+
+# Adjust capacity, degradation rates, item lists to match your economy.
+
+# Add UI enhancements (progress bars, animations, sounds).
+
+# Integrate with third-party inventory mods or item packs.
