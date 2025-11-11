@@ -6,10 +6,6 @@ Locale = {
     stored = 'Stored',
     retrieved = 'Retrieved',
     invalid_request = 'Invalid request',
-    maintenance_not_allowed = 'You cannot perform maintenance',
-    maintenance_no_item = 'You lack the required item',
-    maintenance_failed = 'Maintenance failed',
-    maintenance_success = 'Maintenance successful',
 
     -- Maintenance UI / feedback
     maintenance_menu_title = 'Fridge Maintenance',
@@ -20,10 +16,23 @@ Locale = {
     maintenance_action_condenser = 'Repair Condenser',
     maintenance_action_water = 'Hook Water Line',
     maintenance_action_electrical = 'Perform Electrical Repair',
-
     maintenance_starting = 'Starting maintenance: %s',
     maintenance_need_item = 'You need a %s to do that',
     maintenance_using_item = 'Using %s...',
     maintenance_success_detail = 'Maintenance completed: %s',
-    maintenance_fail_detail = 'Maintenance failed: %s'
+    maintenance_fail_detail = 'Maintenance failed: %s',
+    maintenance_not_allowed = 'You cannot perform maintenance',
+    maintenance_no_item = 'You lack the required item',
+    maintenance_failed = 'Maintenance failed',
+    maintenance_success = 'Maintenance successful',
+
+    ---- Maintenance config (items, degradation, minigame settings)
+    deicing_kit = 'deicing_kit',
+    water_filter = 'water_filter',
+    air_filter = 'air_filter',
+    refrigerant_can = 'refrigerant_can',
+    condenser_patch = 'condenser_patch',
+    water_connector = 'water_connector',
+    electrical_kit = 'electrical_kit'
+
 }
