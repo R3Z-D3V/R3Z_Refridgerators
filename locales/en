@@ -1,0 +1,29 @@
+Locale = {
+    invalid_amount = 'Invalid amount',
+    cannot_store = 'This item cannot be stored',
+    no_item = 'You do not have that item',
+    fridge_full = 'Fridge is full',
+    stored = 'Stored',
+    retrieved = 'Retrieved',
+    invalid_request = 'Invalid request',
+    maintenance_not_allowed = 'You cannot perform maintenance',
+    maintenance_no_item = 'You lack the required item',
+    maintenance_failed = 'Maintenance failed',
+    maintenance_success = 'Maintenance successful',
+
+    -- Maintenance UI / feedback
+    maintenance_menu_title = 'Fridge Maintenance',
+    maintenance_action_deice = 'De-ice Fridge',
+    maintenance_action_filter = 'Replace Air Filter',
+    maintenance_action_waterfilter = 'Replace Water Filter',
+    maintenance_action_refrigerant = 'Replace Refrigerant',
+    maintenance_action_condenser = 'Repair Condenser',
+    maintenance_action_water = 'Hook Water Line',
+    maintenance_action_electrical = 'Perform Electrical Repair',
+
+    maintenance_starting = 'Starting maintenance: %s',
+    maintenance_need_item = 'You need a %s to do that',
+    maintenance_using_item = 'Using %s...',
+    maintenance_success_detail = 'Maintenance completed: %s',
+    maintenance_fail_detail = 'Maintenance failed: %s'
+}
