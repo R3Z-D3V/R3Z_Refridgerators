@@ -1,5 +1,11 @@
--- Config for fridge resource
 Config = {}
+-- Inventory integration toggles
+Config.EnableOxInventory = false --- set to true to enable ox-inventory support
+Config.EnableQbInventory = false --- set to true to enable qb-inventory support
+-- When opening a fridge we can open an inventory stash. Set stash provider preference: 'ox'|'qb'|'none'
+Config.StashProvider = 'ox' -- change to 'qb' or 'none' to control which inventory system to open as a stash
+Config.TargetDistance = 2.5 -- Distance for target interaction
+Config.UseOxmysql = true -- use oxmysql if available; falls back to json file if not
 
 -- Models for fridges to add ox_target interactions
 Config.FridgeModels = {
@@ -12,11 +18,6 @@ Config.FridgeModels = {
     'prop_fridge_01_l1'
 }
 
--- Distance for target interaction
-Config.TargetDistance = 2.5
-
--- Filename for persistent storage (fallback when no DB)
-Config.StorageFile = 'fridges.json'
 
 -- How much slower decay is inside fridge (0 < factor <= 1). 0.2 = 5x slower
 Config.DecayFactor = 0.2
@@ -25,43 +26,27 @@ Config.DecayFactor = 0.2
 Config.PerishableItems = {
     ['water_bottle'] = true,
     ['sandwich'] = true,
+    ['toastie'] = true,
     ['apple'] = true,
     ['milk'] = true
 }
 
--- Maximum slots per fridge
+-- Storage Settings
 Config.MaxSlots = 30
+Config.StashPrefix = 'fridge_' -- Optional prefix for stash names (storage keys)
+Config.MaxStorePerAction = 50 -- max items stored per action
 
--- Inventory integration toggles
-Config.EnableOxInventory = false -- set to true to enable ox-inventory support
-Config.EnableQbInventory = false -- set to true to enable qb-inventory support
-
--- When opening a fridge we can open an inventory stash. Set stash provider preference: 'ox'|'qb'|'none'
-Config.StashProvider = 'ox' -- change to 'qb' or 'none' to control which inventory system to open as a stash
-
--- Optional prefix for stash names (storage keys)
-Config.StashPrefix = 'fridge_'
-
--- Autosave interval (ms)
-Config.AutosaveInterval = 5 * 60 * 1000 -- 5 minutes
-
--- Backup interval (ms)
-Config.BackupInterval = 6 * 60 * 60 * 1000 -- 6 hours
-
--- Where backups are saved (resource writeable path)
-Config.BackupFilePrefix = 'fridges_backup_'
+-- Persistence settings
+Config.AutosaveInterval = 5 * 60 * 1000 -- 5 minutes Autosave interval
+Config.BackupInterval = 6 * 60 * 60 * 1000 -- 6 hours Backup interval
+Config.BackupFilePrefix = 'fridges_backup_' -- Where backups are saved (resource writeable path)
 
 -- logging/webhook
 Config.EnableAuditWebhook = false
 Config.AuditWebhookURL = '' -- paste your webhook URL here
 Config.EnableAuditFileLog = true
 Config.AuditLogFile = 'fridge_audit.log'
-
--- Validation limits
-Config.MaxStorePerAction = 50 -- max items stored per action
-
--- DB options
-Config.UseOxmysql = true -- use oxmysql if available; falls back to json file if not
+Config.StorageFile = 'fridges.json' -- Filename for persistent storage (fallback when no DB)
 
 -- Localization (strings can be extended)
     Config.Locale = {
